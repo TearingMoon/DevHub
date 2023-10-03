@@ -1,6 +1,6 @@
 <template>
-    <div class="p-2 fixed bottom-0 left-0 right-0">
-        <button class="rounded flex duration-300 
+    <div class="p-2 h-1/6 flex items-center">
+        <button class="rounded flex duration-300
         text-white items-center hover:-translate-y-1 p-2 w-full
         bg-sky-500
         hover:bg-sky-800

@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home flex flex-col h-screen px-2">
     <WorkingSpaceList/>
     <NewWorkingSpaceBtn/>
   </div>
