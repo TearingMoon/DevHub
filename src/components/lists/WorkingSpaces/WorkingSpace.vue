@@ -6,7 +6,7 @@
     </div>
 </template>
 <script>
-import workingSpaceEntity from '@/entities/workingSpaceEntity.ts'
+import workingSpaceEntity from '@/entities/workingSpaceEntity.js'
 export default {
     name: 'WorkingSpace',
     components: {},

@@ -5,7 +5,7 @@
 </template>
 <script>
 import WorkingSpace from '@/components/lists/WorkingSpaces/WorkingSpace.vue'
-import WorkingSpaceEntity from '@/entities/workingSpaceEntity.ts'
+import workingSpaceEntity from '@/entities/workingSpaceEntity.js'
 
 export default {
     name: 'WorkingSpaceList',
@@ -16,7 +16,7 @@ export default {
         }
     },
     mounted() {
-      this.workingSpaceList.push(new WorkingSpaceEntity('id', 'David', 'Prueba', 'Hola'))  
+      this.workingSpaceList.push(new workingSpaceEntity('id', 'David', 'Prueba', 'Hola'))
     },
 }
 </script>
