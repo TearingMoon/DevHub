@@ -16,18 +16,18 @@ export default {
         }
     },
     mounted() {
-        this.workingSpaceList.push(new workingSpaceEntity(Math.random(), 'David', 'Prueba', 'Hola', true));
-        this.workingSpaceList.push(new workingSpaceEntity(Math.random(), 'David', 'Prueba', 'Hola'));
-        this.workingSpaceList.push(new workingSpaceEntity(Math.random(), 'David', 'Prueba', 'Hola', true));
-        this.workingSpaceList.push(new workingSpaceEntity(Math.random(), 'David', 'Prueba', 'Hola'));
-        this.workingSpaceList.push(new workingSpaceEntity(Math.random(), 'David', 'Prueba', 'Hola', true));
-        this.workingSpaceList.push(new workingSpaceEntity(Math.random(), 'David', 'Prueba', 'Hola'));
-        this.workingSpaceList.push(new workingSpaceEntity(Math.random(), 'David', 'Prueba', 'Hola', true));
-        this.workingSpaceList.push(new workingSpaceEntity(Math.random(), 'David', 'Prueba', 'Hola'));
-        this.workingSpaceList.push(new workingSpaceEntity(Math.random(), 'David', 'Prueba', 'Hola', true));
-        this.workingSpaceList.push(new workingSpaceEntity(Math.random(), 'David', 'Prueba', 'Hola'));
-        this.workingSpaceList.push(new workingSpaceEntity(Math.random(), 'David', 'Prueba', 'Hola', true));
-        this.workingSpaceList.push(new workingSpaceEntity(Math.random(), 'David', 'Prueba', 'Hola'));
+        this.workingSpaceList.push(new workingSpaceEntity(Math.random(), 'Environment 1', 'Prueba', undefined , true));
+        this.workingSpaceList.push(new workingSpaceEntity(Math.random(), 'Environment 2', 'Prueba', undefined ));
+        this.workingSpaceList.push(new workingSpaceEntity(Math.random(), 'Environment 3', 'Prueba', undefined , true));
+        this.workingSpaceList.push(new workingSpaceEntity(Math.random(), 'Environment 4', 'Prueba', undefined ));
+        this.workingSpaceList.push(new workingSpaceEntity(Math.random(), 'Environment 5', 'Prueba', undefined , true));
+        this.workingSpaceList.push(new workingSpaceEntity(Math.random(), 'Environment 6', 'Prueba', undefined ));
+        this.workingSpaceList.push(new workingSpaceEntity(Math.random(), 'Environment 7', 'Prueba', undefined , true));
+        this.workingSpaceList.push(new workingSpaceEntity(Math.random(), 'Environment 8', 'Prueba', undefined ));
+        this.workingSpaceList.push(new workingSpaceEntity(Math.random(), 'Environment 9', 'Prueba', undefined , true));
+        this.workingSpaceList.push(new workingSpaceEntity(Math.random(), 'Environment 10', 'Prueba',undefined ));
+        this.workingSpaceList.push(new workingSpaceEntity(Math.random(), 'Environment 11', 'Prueba',undefined , true));
+        this.workingSpaceList.push(new workingSpaceEntity(Math.random(), 'Environment 12', 'Prueba','iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==' ));
     },
 }
 </script>
