@@ -15,7 +15,7 @@
 <script>
 import { PlusIcon } from '@heroicons/vue/24/solid';
 export default {
-    name: 'NewProjectBtn',
+    name: 'NewWorkingSpaceBtn',
     components: { PlusIcon }
 }
 </script>

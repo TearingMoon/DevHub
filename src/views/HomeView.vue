@@ -1,19 +1,19 @@
 <template>
   <div class="home">
-    <div style="height: 100rem;">
-
-    </div>
-    <NewProjectBtn/>
+    <WorkingSpaceList/>
+    <NewWorkingSpaceBtn/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import NewProjectBtn from '@/components/btns/NewProjectBtn.vue'
+import NewWorkingSpaceBtn from '@/components/btns/NewWorkingSpaceBtn.vue'
+import WorkingSpaceList from '@/components/lists/WorkingSpaces/WorkingSpaceList.vue'
 export default {
   name: 'HomeView',
   components: {
-    NewProjectBtn
+    NewWorkingSpaceBtn,
+    WorkingSpaceList
   }
 }
 </script>
