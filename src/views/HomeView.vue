@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="px-20 py-5 w-full h-full">
     <last-workspace></last-workspace>
   </div>
 </template>
