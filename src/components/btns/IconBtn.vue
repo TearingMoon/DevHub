@@ -2,13 +2,7 @@
   <button
     @click="$emit('click')"
     :class="
-      'h-' +
-      size +
-      ' w-' +
-      size +
-      ' rounded-full bg-slate-100 hover:bg-' +
-      color +
-      '-400 hover:shadow relative p-2 hover:scale-125 duration-300 ease-in-out'
+      'h-8 w-8 rounded-full bg-slate-100 hover:shadow relative p-2 hover:scale-125 duration-300 ease-in-out ' + customClass 
     "
   >
     <slot> </slot>
@@ -18,14 +12,10 @@
 export default {
   name: "icon-btn",
   props: {
-    color: {
+    customClass: {
       type: String,
-      default: "green",
-    },
-    size: {
-      type: Number,
-      default: 8,
-    },
+      default: "hover:bg-green-400",
+    }
   },
   emits: ["click"],
 };

@@ -1,22 +1,12 @@
 <template>
   <div class="min-w-max h-full relative">
-    <img
-      :class="'object-cover rounded-lg h-' + imageSize + ' w-' + imageSize"
-      :src="src"
-    />
+    <img class="object-cover rounded-lg h-36 w-36" :src="src" />
     <div
       class="rounded-lg absolute top-0 left-0 w-full h-full bg-slate-400/50 duration-300 hover:opacity-100 opacity-0 flex justify-center items-center transition-opacity"
     >
       <button
         @click="$emit('click')"
-        :class="
-          'h-' +
-          btnSize +
-          ' w-' +
-          btnSize +
-          ' rounded-full relative p-2 hover:scale-125 duration-300 ease-in-out ' +
-          customClass
-        "
+        :class="'h-10 w-10 rounded-full relative p-2 hover:scale-125 duration-300 ease-in-out ' + customClass"
       >
         <slot> </slot>
       </button>
@@ -26,14 +16,6 @@
 <script>
 export default {
   props: {
-    imageSize: {
-      type: Number,
-      default: 36,
-    },
-    btnSize: {
-      type: Number,
-      default: 10,
-    },
     src: {
       type: String,
       default:
